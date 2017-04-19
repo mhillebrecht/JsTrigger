@@ -17,7 +17,7 @@
  */
 
 
-const CLICK_EVENT         = "click";
+const CLICK_EVENT         = "click"; 
 const DATA_CLASS          = "data-class";
 const DATA_TOGGLE         = "data-toggle";
 const DATA_TARGET         = "data-target";
@@ -41,7 +41,7 @@ function TriggerJS() {
     clickSources[i].targetDefaultClass = clickSources[i].getAttribute( DATA_TARGET_CLASS );
     clickSources[i].targetToggleClass = clickSources[i].getAttribute( DATA_TARGET_TOGGLE );
   }
-} 
+}
 
 TriggerJS.prototype = {
   /*
